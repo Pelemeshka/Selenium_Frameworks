@@ -28,9 +28,10 @@ namespace Test_Homework_5
             new Actions(driver).Click(MenuLogoutAllProductsPage).Build().Perform();
             return new LoginPage(driver);
         }
-        private IWebElement nameNewProduct => driver.FindElement(By.LinkText("Cake pops"));
-        public string GetNameNewProduct() // Метод возвращает текст названия продукта, находящегося по линку Cake pops.
+        //private IWebElement nameNewProduct => driver.FindElement(By.LinkText(newProduct));
+        public string GetNameNewProduct(string newProduct) // Метод возвращает текст названия продукта, находящегося по линку Cake pops.
         {
+            IWebElement nameNewProduct = driver.FindElement(By.LinkText(newProduct));
             return nameNewProduct.Text;
         }
     }

@@ -30,7 +30,7 @@ namespace Test_Homework_5
             createNewProduct = CreateNewService.InputProduct(cakePops, driver);// Создаем новый продукт.
             allProductsPage = new AllProductsPage(driver);// Инициализация новой страницы All products.
             // Проверка наличия продукта Cake pops на странице All Products
-            Assert.AreEqual("Cake pops", allProductsPage.GetNameNewProduct());
+            Assert.AreEqual("Cake pops", allProductsPage.GetNameNewProduct("Cake pops"));
         }
 
         [Test]

@@ -3917,11 +3917,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\source\\repos\\Pelemeshka\\Selenium_Frameworks_HW5\\Test_Homework_4\\Test_Homework_5.csproj",
+      "projectUniqueName": "C:\\Users\\user\\source\\repos\\Pelemeshka\\Selenium_Frameworks_HW5\\Selenium_Frameworks\\Test_Homework_4\\Test_Homework_5.csproj",
       "projectName": "Test_Homework_5",
-      "projectPath": "C:\\Users\\user\\source\\repos\\Pelemeshka\\Selenium_Frameworks_HW5\\Test_Homework_4\\Test_Homework_5.csproj",
+      "projectPath": "C:\\Users\\user\\source\\repos\\Pelemeshka\\Selenium_Frameworks_HW5\\Selenium_Frameworks\\Test_Homework_4\\Test_Homework_5.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\source\\repos\\Pelemeshka\\Selenium_Frameworks_HW5\\Test_Homework_4\\obj\\",
+      "outputPath": "C:\\Users\\user\\source\\repos\\Pelemeshka\\Selenium_Frameworks_HW5\\Selenium_Frameworks\\Test_Homework_4\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
